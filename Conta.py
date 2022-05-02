@@ -1,10 +1,10 @@
-from Titular import Titular
+from Cliente import Cliente
 
 class Conta():
 
-    def __init__(self, titular=Titular, saldo=0):
+    def __init__(self, titular=Cliente, saldo_inicial=0):
         self.__titular = titular
-        self.__saldo = saldo
+        self.__saldo = saldo_inicial
 
     def sacar(self, valor):
         self.__saldo -= valor
@@ -17,3 +17,7 @@ class Conta():
 
     def obterTitular(self):
         return self.__titular
+
+    def transferir(self, valor, conta_destino):
+        self.sacar(valor)
+        conta_destino.depositar(valor)

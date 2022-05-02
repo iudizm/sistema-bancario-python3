@@ -1,6 +1,7 @@
-class Titular():
+class Pessoa():
 
-    def __init__(self, nome="", ano_de_nascimento=0):
+    def __init__(self, nome="", ano_de_nascimento=0, cpf=0):
+        self.__cpf = cpf
         self.__nome = nome
         self.__ano_de_nascimento = ano_de_nascimento
 

@@ -13,3 +13,12 @@ class Agencia():
     
     def obterContaDe(self, titular):
         return self.__registro[titular]
+
+    def sacarDeConta(conta, valor):
+        conta.sacar(valor)
+
+    def depositarEmConta(conta, valor):
+        conta.depositar(valor)
+
+    def realizarTranferencia(origem, destino, valor):
+        origem.transferir(valor, destino)
