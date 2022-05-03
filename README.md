@@ -1,9 +1,9 @@
 # sistema-bancario-python3
 
 ### to do:
-- [ ] Cliente -> Pessoa(nome, cpf, endereço, ano_nascimento)
-- [ ] Funcionario -> Pessoa
-- [ ] Gerente -> Funcionario
+- [x] Cliente -> Pessoa(nome, cpf, endereço, ano_nascimento)
+- [x] Funcionario -> Pessoa (id)
+- [x] Gerente -> Funcionario
 
 - [ ] ContaConjunta -> Conta
 - [ ] ContaCorrente -> Conta ou ContaConjunta
@@ -13,9 +13,9 @@
 - [ ] Transferência entre contas
 
 - Agencia:
-    - cadastrar contas
-    - realizar as operações com as contas (sacar, depositar, transferir, buscar, mostrar, encerrar)
+    - [ ] cadastrar novas contas
+    - [ ] realizar as operações com as contas (sacar, depositar, transferir, buscar, mostrar, encerrar)
 
 - Cliente:
-    - tem um gerente associado
-    - senha de acesso
+    - [ ] tem um gerente associado
+    - [ ] senha de acesso

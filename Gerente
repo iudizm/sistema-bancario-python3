@@ -1,4 +1,0 @@
-import Funcionario
-
-class Gerente(Funcionario):
-    pass
